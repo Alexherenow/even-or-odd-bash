@@ -1,0 +1,11 @@
+#!/bin/bash
+echo " TO CHECK EVEN OR ODD"
+echo "Enter the number for check :: "
+read ch
+c=`expr $ch % 2`
+if [ $c -eq 0 ]
+then
+echo " $ch is even"
+else
+echo "odd"
+fi
